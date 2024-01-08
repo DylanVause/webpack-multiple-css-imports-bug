@@ -1,4 +1,4 @@
-# mui-webpack-bug
+# webpack-multiple-css-imports-bug
  Minimal reproduction for bug when importing CSS from multiple pages using html-bundler-webpack-plugin.
 
 html-bundler-webpack-plugin: https://github.com/webdiscus/html-bundler-webpack-plugin
