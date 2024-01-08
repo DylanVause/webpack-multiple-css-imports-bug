@@ -37,12 +37,6 @@ module.exports = [
                     exclude: /node_modules/,
                 },
                 {
-                    test: /\.md$/i,
-                    use: 'raw-loader',
-                    include: path.resolve(__dirname, 'client'),
-                    exclude: /node_modules/,
-                },
-                {
                     test: /\.(ico|png|jp?g|svg)/,
                     type: 'asset/resource',
                     include: path.resolve(__dirname, 'client'),
