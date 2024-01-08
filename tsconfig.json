@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "./dist",
+        "rootDir": "./",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "lib": ["ESNext", "DOM"],
+        "types": ["node"],
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@client/*": ["client/*"],
+        },
+        "jsx": "react-jsx"
+    },
+    "include": ["client/**/*.tsx",  "client/**/*.ts"],
+    "exclude": ["node_modules", "dist", "client-dist"],
+}
