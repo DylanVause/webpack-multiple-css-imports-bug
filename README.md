@@ -1,5 +1,5 @@
 # webpack-multiple-css-imports-bug
- Minimal reproduction for bug when importing CSS from multiple pages using html-bundler-webpack-plugin.
+ Minimal reproduction for bug when importing CSS from multiple pages using html-bundler-webpack-plugin.  This bug was observed in html-bundler-webpack-plugin version `3.4.6` and patched in `3.4.7`.
 
 html-bundler-webpack-plugin: https://github.com/webdiscus/html-bundler-webpack-plugin
 
