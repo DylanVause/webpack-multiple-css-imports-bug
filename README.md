@@ -3,7 +3,7 @@
 
 html-bundler-webpack-plugin: https://github.com/webdiscus/html-bundler-webpack-plugin
 
-## Steps to reproducte the bug
+## Steps to reproduce the bug
 1. run `npm install` 
 2. run `npm run build`
 3. run `npm start`
